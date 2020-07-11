@@ -3,13 +3,14 @@
     <meta charset="utf-8">
     <head>
         <title>iTechDesk</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
     </head>
 
     <body>
         <table>
             <tr>
                 <td>
-                    <img src="./src/fotos/76702382_2592278690848694_1407367801152208896_n.jpg", alt="perfil"></td>
+                    <img src="/static/fotos/76702382_2592278690848694_1407367801152208896_n.jpg", alt="perfil"></td>
                 <td>
                     <h1>Matheus Henrique</h1>
                     <p><em>Criador da <strong><a href="https://instagram.com/itechdesk">iTechDesk</a></strong></em></p>
@@ -30,7 +31,7 @@
         <p>
             Praesent quis scelerisque nunc. Donec malesuada sem sit amet tortor cursus, quis feugiat sem eleifend. Donec massa libero, commodo quis vestibulum id, suscipit id arcu. Vivamus interdum aliquet nisi ut gravida. Quisque suscipit quam nunc, posuere porttitor neque lobortis vel. Fusce rhoncus enim sit amet purus lobortis varius. Duis eu sollicitudin justo. Fusce eu nunc quis lacus molestie ultricies. Suspendisse et sodales nisl. Duis in libero eros. Vestibulum id nibh quis arcu bibendum aliquam. Sed aliquet ligula sit amet nisi tempus luctus. Nam hendrerit consequat urna, sit amet mattis dui. Sed fringilla eleifend tristique. Nullam maximus metus non purus sodales, scelerisque aliquet urna malesuada. Morbi in porta enim. 
         </p>
-        <table>
+        <table border="2px">
             <thead>
                 <tr>
                     <th>
@@ -63,6 +64,13 @@
         <hr>
     </body>
     <footer>
-        <p>MEU FOOTER</p>
+        <p>Contate nossa equipe via E-Mail:</p>
+        <form action="mailto:matheushenriquedesouzasilva@hotmail.com" method="POST" enctype="text/plain">            
+            <label>Seu E-mail:</label>
+            <input type="email" name="email" placeholder="Seu E-mail"><br>
+            <label>Sua Mensagem:</label><br>
+            <textarea rows="10", cols="30"></textarea>
+            <input type="submit">
+        </form>
     </footer>
 </html>
