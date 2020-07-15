@@ -6,5 +6,9 @@ app = Flask(__name__, template_folder="src")
 def index():
     return render_template("index.html")
 
+@app.route("/eu")
+def eu():
+    return render_template("eu.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

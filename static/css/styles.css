@@ -10,10 +10,14 @@ h3{
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: gray;
+    border-color: black;
     border-width: 6px;
     width: 30%;
 }
-img {
-    block-size: 30px;
+.profile {
+    block-size: 300px;
+}
+
+.profile:hover{
+    block-size: 500px;
 }
