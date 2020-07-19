@@ -1,9 +1,14 @@
 .first-part {
     background-color: #7fdbdae5;
+    text-align: center;
+    position: relative;
+    padding-top: 10%;
 }
 .celular {
-    block-size: 300px;
+    block-size: 250px;
+    position: relative;
 }
 .pc{
-    block-size: 300px;
+    block-size: 250px;
+    position: relative;
 }
