@@ -25,9 +25,8 @@ hr {
     block-size: 500px;
 }
 
-.header1{
-    margin: 0 auto 0 auto;
-}
-.paragraph{
-    margin: 0 auto 0 auto;
+
+.tabelinha {
+    border: 2px;
+
 }

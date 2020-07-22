@@ -10,5 +10,9 @@ def index():
 def eu():
     return render_template("eu.html")
 
+@app.route("/stub")
+def stub():
+    return render_template("StubCode.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

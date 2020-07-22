@@ -1,14 +1,21 @@
 .first-part {
     background-color: #7fdbdae5;
+    font-family: 'Sacramento', cursive;
     text-align: center;
-    position: relative;
-    padding-top: 10%;
 }
 .celular {
     block-size: 250px;
-    position: relative;
+    position: absolute;
+    left: 0;
+    bottom:0;
 }
 .pc{
     block-size: 250px;
-    position: relative;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.header1 .paragraph{
+    position: absolute;
+    font-size: 2.5rem;
 }
