@@ -1,5 +1,10 @@
-.table-header{
-    margin-left: 300px;
+.profile{
+    width: 10%;
+    float: left;
+}
+.text{
+    text-align: center;
+    line-height: 1;
 }
 body{
     background-color: #e43f5a;
@@ -17,16 +22,10 @@ hr {
     border-width: 6px;
     width: 30%;
 }
-.profile {
-    block-size: 300px;
-}
-
-.profile:hover{
-    block-size: 500px;
-}
-
-
 .tabelinha {
     border: 2px;
-
+}
+.texto{
+    text-align: left;
+    line-height: 2;
 }
