@@ -1,14 +1,36 @@
 <html>
   <head>
     <title>iTechDesk 💻</title>
+    <script src="https://kit.fontawesome.com/4d0336ce37.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../static/css/itd.css" />
+    <link rel="icon" href="../static/fotos/itechdesk.ico" />
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
+    <!--Navbar menu de cima-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button
@@ -33,5 +55,78 @@
         </div>
       </div>
     </nav>
+    </div>
+    <section id="top" class="container-fluid">
+      <!--Parte de cima-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 titulo">
+          <h1>💻 Assistência Tecnológica 💻</h1>
+          <button type="button" class="btn btn-dark btn-lg botao-topo"><span class="fas fa-phone"></span> Ligue</button>
+          <button type="button" class="btn btn-outline-light btn-lg botao-topo"><span class="fab fa-instagram"></span> Instagram</button>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 imagem-topo">
+          <img class="img-topo" src="../static/fotos/itechdesk.png" alt="logo itechdesk" />
+        </div>
+      </div>
+    </section>
+    <section id="valores" class="row">
+      <div class="feature-box col-lg-4 col-md-4 col-sm-4">
+        
+        <i class="far fa-heart fa-4x"></i>
+        <h3>OBJETIVO CLARO</h3>
+        <p>
+        A iTechDesk tem o objetivo de resolver problemas sociais relacionados às
+        tecnologias. Consideramos esse um diferencial muito importante, visto que muitas empresas não visam cumprir a função social de resolver problemas e sim atingir a mera lucratividade. Nós não!
+        </p>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-4 col-sm-4">
+        
+        <i class="fas fa-search-dollar fa-4x"></i>
+        <h3>PREÇO ACESSÍVEL</h3>
+        <p>
+        O preço acessível que buscamos fazer é com o intuito de que com
+        manutenção em aparelhos e orientações de quem estuda o assunto chegar a
+        um único objetivo: que ninguém em nenhum lugar dos arredores de São
+        Carlos deixe de desfrutar as benesses que a tecnologia nos traz.
+        </p>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-4 col-sm-4">
+        
+        <i class="fas fa-route fa-4x"></i>
+        <h3>VAMOS ATÉ VOCÊ</h3>
+        <p>Nós entendemos que muitos dos problemas que enfrentamos com a tecnologia não pode esperar até que você possa trazer até nós, então nossa equipe vai até você para resolver o problema possivelmente no próprio lugar.</p>
+
+      </div>
+      
+    </section>
+    <section id="preços">
+      <h2>Tabela de preços flexível</h2>
+      <p>
+        Contamos com um diferencial que é tornar esses preços flexíveis, de
+        forma que caso encontre um preço melhor em São Carlos, garantimos que
+        cobrimos!
+      </p>
+
+      <h3>Formatação</h3>
+      <h2>R$49,00</h2>
+      <p>A visita é você mesmo quem faz o cálculo da distância e o preço</p>
+      <!--inserir botão de calcular uber/99-->
+      <button type="button">Eu quero!</button>
+
+      <h3>Desenvolvimento de Site Institucional</h3>
+      <h2>R$349,00</h2>
+      <p>Prepare a hospedagem que nós desenvolvemos seu site institucional</p>
+      <button type="button">Eu quero!</button>
+
+      <h3>Desenvolvimento de Site One-Page</h3>
+      <h2>R$99,00</h2>
+      <p>
+        Prepare a hospedagem que nós desenvolvemos seu Site One-Page para
+        qualquer que seja o propósito
+      </p>
+      <button type="button">Eu quero!</button>
+    </section>
   </body>
 </html>

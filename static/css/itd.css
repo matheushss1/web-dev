@@ -1,3 +1,76 @@
+body {
+  font-family: 'Montserrat-Black';
+}
 .navbar-nav {
   float: right;
+}
+h1 {
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+#top {
+  padding-top: 30px;
+  background-color: #10ac84;
+  padding: 3% 15%;
+}
+.titulo {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 7%;
+}
+.navbar-brand {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.botao-topo {
+  margin: 10% 3% 5% 0;
+}
+.botao-topo:hover {
+  background-color: #0abde3;
+}
+.img-topo {
+  width: 60%;
+  transform: rotate(34deg);
+  padding-top: 7%;
+}
+#valores {
+  padding: 7% 15%;
+  background-color: #0abde3;
+}
+.feature-box {
+  text-align: center;
+  font-size: 1.3em;
+  color: #222f3e;
+}
+h3 {
+  font-family: 'Montserrat-Bold';
+  font-weight: bold;
+  color: #222f3e;
+}
+.fas {
+  color: #ee5253;
+}
+.far {
+  color: #ee5253;
+}
+.fab {
+  color: #ee5253;
+}
+.fas:hover {
+  color: #10ac84;
+}
+.far:hover {
+  color: #10ac84;
 }
